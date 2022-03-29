@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#header{
+    text-align: center;
+    background-color: #372c2c;
+    border-bottom: solid 1px black;
+    color: #fff;   
+}
+
+#header h3{
+    background-color: #372c2c;
+    margin: 0;
+    padding: 10px 0px
+}
+
+#header ul{
+    position:relative;
+    text-align: center;
+    width: 30%;
+    left: 35%;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: #CC0000;
+}
+
+#header li{
+    padding: 3px 10px 0px 10px;
+    margin: 10px 10px 0px 10px;
+    display: inline;
+}
+
+#left-nav{
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    background-color: #372c2c;
+    text-align: left;
+    clear:both;
+    padding-left: 20px;
+    border-right: solid 1px black;
+    color: #fff
+}
+
+
+#content{
+    width: 85%;
+    float: right;
+    clear: both;
+    margin: 50px -50px;
+    color: black
+}
+
+#content a{
+    color: black;
+}
+
+#content img{
+    float:left;
+    border-radius: 8px;
+}
+
+#info{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    text-align: left;
+}
+
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    background-color: #372c2c;
+    padding-bottom: 10px;
+    border-top: solid 1px black;
+
+}
+
+#footer ul{
+    position:relative;
+    text-align: center;
+    width: 30%;
+    left: 35%;
+    margin: 0px;
+    padding: 5px 10px 5px 10px;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: #CC0000;
+}
+
+#footer li{
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    display: inline;
+}
+
+#footer p{
+    display: inline;
+    margin: 0px 30px;
+    color: white;
+    }
+
+a{
+    color: #fff
+}
+a:visited{
+    color:#fff
+}
+
+.thick{
+    font-family: "Vitesse",sans-serif;
+}
